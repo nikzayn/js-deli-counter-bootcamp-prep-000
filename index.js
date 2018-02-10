@@ -14,3 +14,9 @@ function nowServing(katzDeliLine){
   }
   return message;
 }
+function currentLine(katzDeliLine){
+  var line = [];
+  for(let i = 0; i < katzDeliLine.length; i++){
+    line.push(``)
+  }
+}
