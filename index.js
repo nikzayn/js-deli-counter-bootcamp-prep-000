@@ -14,13 +14,3 @@ function nowServing(katzDeliLine){
   }
   return message;
 }
-function nowServing (katzDeliLine) { 
-  var customer = katzDeliLine.shift();
-    if(katzDeliLine.length===0) {
-    return 'There is nobody waiting to be served!'; 
-}
-   else{   return "The line is currently: 1. Ada, 2. Grace" + customer + "." ;
-     
-   }return customer;
-   }
-   
