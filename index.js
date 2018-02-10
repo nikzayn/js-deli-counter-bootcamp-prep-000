@@ -19,8 +19,8 @@ function currentLine(katzDeliLine){
   for(let i = 0; i < katzDeliLine.length; i++){
    position.push(` `+[i+1]+`. ` + katzDeliLine[i])
   }
-  if(){
-    
+  if(katzDeliLine.length === 0){
+    return ""
   }else{
     
   }
