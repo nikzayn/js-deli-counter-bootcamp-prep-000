@@ -15,8 +15,8 @@ function nowServing(katzDeliLine){
   return message;
 }
 function currentLine(katzDeliLine){
-  var line = [];
+  var position = [];
   for(let i = 0; i < katzDeliLine.length; i++){
-   line.push(` `+[i+1]+`. `  + katzDeli[i])
+   position.push(` `+[i+1]+`. ` + katzDeliLine[i])
   }
 }
